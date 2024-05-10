@@ -2,7 +2,7 @@ open Dream_html
 open HTML
 open Photo_site
 
-let node (photo : Data.photo) =
+let node (photo : Models.photo) =
     div [ id "image_container" ] [
         button [
             id "btn_prev";
