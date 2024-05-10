@@ -1,0 +1,3 @@
+(library
+ (name photo_site_components)
+ (libraries photo_site dream-html dream-htmx))

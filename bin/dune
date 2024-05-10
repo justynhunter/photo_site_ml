@@ -1,0 +1,4 @@
+(executable
+ (public_name photo_site)
+ (name main)
+ (libraries photo_site photo_site_pages photo_site_components dream))
