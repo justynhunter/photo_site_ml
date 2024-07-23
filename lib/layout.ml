@@ -6,7 +6,7 @@ let head page_title =
         title [] "%s - justynhunter.com" page_title;
         meta [ charset "utf8" ];
         link [ rel "stylesheet"; href "/css/site.css" ];
-        script [ src "https://unpkg.com/htmx.org@1.9.9" ] ""
+        script [ src "https://unpkg.com/htmx.org@2.0.1" ] ""
     ]
 
 let header =
