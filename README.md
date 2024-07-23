@@ -5,5 +5,5 @@ My photograph website.
 ## running it
 
 ```bash
-dune exec photo_site
+dune exec photo_site -w
 ```
